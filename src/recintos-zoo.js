@@ -178,8 +178,6 @@ function calculaEspacoDisponivel(recinto, novoAnimal) {
 }
 
 // Método Principal
-const resultado = new RecintosZoo().analisaRecintos("HIPOPOTAMO", 1)
-console.log(resultado)
-
+new RecintosZoo().analisaRecintos("HIPOPOTAMO", 1)
 
 export { RecintosZoo as RecintosZoo };
